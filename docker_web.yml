@@ -12,7 +12,7 @@
 
   - name: Creating HTML File Inside Document Root
     copy: 
-      content: "Webserver successfully configured"
+      content: "<b></center>Webserver successfully configured</center></b>"
       dest: "/var/www/html/index.html"
     register: b
   - debug:
